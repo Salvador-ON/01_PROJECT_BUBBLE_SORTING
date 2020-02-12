@@ -18,4 +18,4 @@ end
 
 puts bubble_sort(['3', '2', '1', '6', '5', '2', '10', '0', '-3'])
 
-puts bubble_sort_by(["length", "hi", "hello", "hey", "a", "abc"])
+puts bubble_sort_by(%w["length", "hi", "hello", "hey", "a", "abc"])
