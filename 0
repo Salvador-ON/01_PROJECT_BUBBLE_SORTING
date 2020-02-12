@@ -5,7 +5,7 @@ def bubble_sort(item)
     end
   end
 
-  return results = item.inspect if item != nil
+  return results = item.inspect if !nil item
 end
 
 def bubble_sort_by(item)
