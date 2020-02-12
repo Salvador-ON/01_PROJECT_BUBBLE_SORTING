@@ -4,8 +4,8 @@ def bubble_sort(item)
       item[k], item[k + 1] = item[k + 1], item[k] if item[k].to_i > item[k + 1].to_i
     end
   end
-
-  return item.inspect
+  results = item.inspect
+  return results
 end
 
 def bubble_sort_by(item)
