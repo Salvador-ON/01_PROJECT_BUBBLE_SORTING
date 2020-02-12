@@ -13,8 +13,7 @@ def bubble_sort_by(item)
       item[k], item[k + 1] = item[k + 1], item[k] if item[k].length > item[k + 1].length
     end
   end
-
-  return item.inspect
+  result=item.inspect
 end
 
 puts bubble_sort(['3', '2', '1', '6', '5', '2', '10', '0', '-3'])
