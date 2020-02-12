@@ -1,10 +1,7 @@
 def bubble_sort(item)
   (1..(item.length - 1)).each do
-    (0..(item.length - 2)).each do
-      |k|
-      if(item[k].to_i > item[k+1].to_i) then
-	item[k],item[k+1] = item[k+1],item[k]
-      end
+    (0..(item.length - 2)).each do |k|
+      	item[k],item[k+1] = item[k+1],item[k] if (item[k].to_i > item[k+1].to_i)
     end
   end
 
