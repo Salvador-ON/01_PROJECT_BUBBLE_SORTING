@@ -8,16 +8,13 @@ def bubble_sort(item)
 end
 
 def bubble_sort_by(item)
-
-  (1..(item.length-1)).each { 
-    |n|
-    (0..(item.length-2)).each {
-      |k|
+  (1..(item.length - 1)).each do
+    (0..(item.length - 2)).each do |k|
       if(item[k].length() > item[k+1].length()) then
 	item[k],item[k+1] = item[k+1],item[k]
       end
-    }
-  }	
+    end
+  end
 
   return item.inspect
 end
