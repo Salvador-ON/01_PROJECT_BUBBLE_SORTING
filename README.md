@@ -1,4 +1,4 @@
-# Microverse - RUBY - Bubble Shorting Project
+# Microverse - Ruby - Bubble Shorting Project
 
 > In this project, We got the chance to build our FIRST RUBY program. We will be fallowing the instruction displayed in [The Odin Project](https://www.theodinproject.com/courses/ruby-programming/lessons/advanced-building-blocks)
 
@@ -8,7 +8,7 @@
 
 ## Built With
 
-- RUBY
+- Ruby
 - Visual Studio Code
 - Vim
 
